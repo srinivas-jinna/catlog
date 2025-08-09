@@ -92,9 +92,9 @@ int main() {
     vector<double> coeffs = gaussianSolve(A, B);
 
     // Output coefficients
-    cout << "Polynomial coefficients (constant term first):\n";
     for (double c : coeffs) {
         cout << c << " ";
+        break;
     }
     cout << "\n";
 }
